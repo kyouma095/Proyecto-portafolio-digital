@@ -1,3 +1,6 @@
+<?php 
+include('menu.php');
+ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -49,19 +52,9 @@
 	</style>
 </head>
 <body>
-
-<a href="index.php">
-  <button>Regresar</button>
-</a>
-<br><br>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Logo Java" class="language-logo">
-<br><br>
 <header>
-	Ejercicios basicos de Java Resueltos
-	 
-</header>
-
-
-
+	Ejercicios básicos de Java resueltos 
+</header>1
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

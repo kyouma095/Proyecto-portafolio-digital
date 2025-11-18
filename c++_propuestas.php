@@ -1,3 +1,6 @@
+<?php 
+include('menu.php');
+ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -47,14 +50,11 @@
 	</style>
 </head>
 <body>
-<a href="index.php">
-  <button>Regresar</button>
-</a>
-<br><br>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="Logo C++" class="language-logo">
-<br><br>
+
 <header>
 	Ejercicios propuestos por el grupo de C++ resueltos
 </header>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
