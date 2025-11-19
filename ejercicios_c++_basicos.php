@@ -49,13 +49,22 @@ include('menu.php');
             opacity: 0.9;
         }
 	</style>
+
 </head>
 <body>
 
 <header>
 	Ejercicios basicos de C++ resueltos
 </header>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- inicio del pdf -->
+   <div style="text-align: center; margin: 20px auto;">
+    <iframe src="PDF/Ejercicios Básicos C++ Resueltos.pdf" 
+            width="80%" 
+            height="1000px"
+            style="border: 1px solid #ccc; border-radius: 5px;">
+        Tu navegador no soporta iframes
+    </iframe>
+</div>
+  <!-- fin del pdf -->
 </body>
 </html>

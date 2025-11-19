@@ -54,7 +54,13 @@ include('menu.php');
 <header>
 	Ejercicios propuestos por el grupo de C++ resueltos
 </header>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+		   <div style="text-align: center; margin: 20px auto;">
+    <iframe src="PDF/Propuestas de programas C++  Resueltos.pdf" 
+            width="80%" 
+            height="1000px"
+            style="border: 1px solid #ccc; border-radius: 5px;">
+        Tu navegador no soporta iframes
+    </iframe>
+</div>
 </body>
 </html>

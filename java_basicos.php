@@ -53,8 +53,18 @@ include('menu.php');
 </head>
 <body>
 <header>
-	Ejercicios básicos de Java resueltos 
-</header>1
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+	Ejercicios basicos de Java Resueltos
+	 
+</header>
+   <div style="text-align: center; margin: 20px auto;">
+    <iframe src="PDF/Ejercicios_Básicos Pedro.pdf" 
+            width="80%" 
+            height="1000px"
+            style="border: 1px solid #ccc; border-radius: 5px;">
+        Tu navegador no soporta iframes
+    </iframe>
+</div>
+
+
 </body>
 </html>
