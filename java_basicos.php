@@ -12,9 +12,17 @@ include('menu.php');
 </head>
 <body>
 <header>
-	Ejercicios básicos de Java resueltos 
-</header>
+    
+	Ejercicios basicos de Java resueltos
 
+</header>
+	  <div style="text-align: center; margin: 20px auto;">
+  <iframe src="PDF/Ejercicios_Básicos Java.pdf" 
+            width="80%" 
+            height="1000px"
+            style="border: 1px solid #ccc; border-radius: 5px;">
+        Tu navegador no soporta iframes
+    </iframe>
 
 
 </body>
