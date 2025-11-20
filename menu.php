@@ -8,21 +8,6 @@
 <body>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
 
-	<style>
-
-		h2{
-			text-align: center;
-			font-size: 50px;
-		}
-
-		body{
-			background: aliceblue;
-			font-family: Times new roman;
-		}
-
-
-		
-	</style>
 </head>
 <body>
 
@@ -85,11 +70,7 @@
   </div>
 </nav>
 
-<style>
-	.navbar{
-		background-color:;
-	}
-</style>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
