@@ -8,53 +8,13 @@ include('menu.php');
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
 
-	<style>
-		
-		body{
-			background: lavender;
-		}
-
-		header{
-			text-align: center;
-			font-size: 50px;
-			padding: 40px;
-			background: cadetblue;
-			color: white;
-
-
-		}
-
-		button{
-			padding: 12px 30px;
-            font-size: 16px;
-            font-weight: 500;
-            color: white;
-            background: cadetblue;
-            border: 2px;
-            border-radius: 6px;
-            cursor: pointer;
-            transition: all 0.2s ease;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            
-
-		}
-
-		.language-logo {
-            position: absolute;
-            top: 20px;
-            right: 30px;
-            width: 60px;
-            height: 60px;
-            object-fit: contain;
-            opacity: 0.9;
-        }
-	</style>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
 <body>
 
 <header>
-	Ejercicios basicos de C++ resueltos
+	Ejercicios básicos de C++ resueltos
 </header>
 <!-- inicio del pdf -->
    <div style="text-align: center; margin: 20px auto;">
@@ -66,5 +26,7 @@ include('menu.php');
     </iframe>
 </div>
   <!-- fin del pdf -->
+
+  
 </body>
 </html>
