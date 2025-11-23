@@ -41,12 +41,12 @@
             Ejercicios Javascript
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Basicos</a></li>
-            <li><a class="dropdown-item" href="#">Propuestos</a></li>
-            <li><a class="dropdown-item" href="#">Condiciones</a></li>
-            <li><a class="dropdown-item" href="#">For</a></li>
-            <li><a class="dropdown-item" href="#">While</a></li>
-            <li><a class="dropdown-item" href="#">Do while</a></li>
+            <li><a class="dropdown-item" href="javascript_basicos.php">Basicos</a></li>
+            <li><a class="dropdown-item" href="javascript_propuestas.php">Propuestos</a></li>
+            <li><a class="dropdown-item" href="javascript_condiciones.php">Condiciones</a></li>
+            <li><a class="dropdown-item" href="javascript_for.php">For</a></li>
+            <li><a class="dropdown-item" href="javascript_while.php">While</a></li>
+            <li><a class="dropdown-item" href="javascript_do_while.php">Do while</a></li>
           </ul>
         </li>
 
