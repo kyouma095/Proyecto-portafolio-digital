@@ -35,6 +35,9 @@
             <li><a class="dropdown-item" href="java_while.php">While</a></li>
             <li><a class="dropdown-item" href="java_do_while.php">Do while</a></li>
             <li><a class="dropdown-item" href="java_arreglos.php">Arreglos</a></li>
+            <li><a class="dropdown-item" href="java_listas.php">Listas</a></li>
+
+
           </ul>
         </li>
 
@@ -72,12 +75,11 @@
   </div>
 </nav>
 
-<br><br>
 <header class="encabezado-index">
 <h2>Bienvenido al portafolio web de evidencias de estructuras de datos</h2>
-<br> <br> 
+<br> 
 <h2>4A-Software</h2>
-<br> <br>
+<br> 
 <h2>Universidad tecnologica de escuinapa</h2>
 </header>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> 

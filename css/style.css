@@ -3,19 +3,19 @@
   text-align: center;
   font-size: 50px;
  padding: 40px;
-  background: cadetblue;
+  background: #1f2937;
   color: white;
 
   }
 
- h2{  /*Este es del index */ 
+ h2{  
      text-align: center;
     font-size: 50px;
     color: ;
         }
 
-  body{ /*Este es del index */
-    background: lavender;
+  body{ 
+    background: lightsteelblue;
      font-family: Times new roman;
 
        
@@ -23,7 +23,7 @@
 
      .encabezado-index{
         text-align: center;
-        background: slateblue;
+        background: #1f2937;
             
      }
 
@@ -65,6 +65,36 @@
 
 
      }
+
+     .navbar.bg-body-tertiary {
+    background-color: #F59E0B !important;
+}
+
+
+.navbar-brand,
+.nav-link {
+    color: #ffffff !important;
+    font-weight: 500;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+    color: #fef3c7 !important;
+}
+
+
+.dropdown-menu {
+    background-color: #FEF3C7;
+}
+
+.dropdown-item {
+    color: #78350f;
+}
+
+.dropdown-item:hover {
+    background-color: #F59E0B;
+    color: #ffffff;
+}
 
      
 
