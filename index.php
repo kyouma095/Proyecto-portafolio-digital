@@ -28,9 +28,9 @@
             Ejercicios Java
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="java_basicos.php">Basicos</a></li>
+            <li><a class="dropdown-item" href="java_basicos.php">Básicos</a></li>
             <li><a class="dropdown-item" href="java_propuestas.php">Propuestos</a></li>
-            <li><a class="dropdown-item" href="Java_condicionales_resueltos.php">Condiciones</a></li>
+            <li><a class="dropdown-item" href="Java_condicionales_resueltos.php">Condicionales</a></li>
             <li><a class="dropdown-item" href="java_for.php">For</a></li>
             <li><a class="dropdown-item" href="java_while.php">While</a></li>
             <li><a class="dropdown-item" href="java_do_while.php">Do while</a></li>
@@ -46,9 +46,9 @@
             Ejercicios Javascript
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="javascript_basicos.php">Basicos</a></li>
+            <li><a class="dropdown-item" href="javascript_basicos.php">Básicos</a></li>
             <li><a class="dropdown-item" href="javascript_propuestas.php">Propuestos</a></li>
-            <li><a class="dropdown-item" href="javascript_condiciones.php">Condiciones</a></li>
+            <li><a class="dropdown-item" href="javascript_condiciones.php">Condicionales</a></li>
             <li><a class="dropdown-item" href="javascript_for.php">For</a></li>
             <li><a class="dropdown-item" href="javascript_while.php">While</a></li>
             <li><a class="dropdown-item" href="javascript_do_while.php">Do while</a></li>
@@ -61,7 +61,7 @@
             Ejercicios C++
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="ejercicios_c++_basicos.php">Basicos</a></li>
+            <li><a class="dropdown-item" href="ejercicios_c++_basicos.php">Básicos</a></li>
             <li><a class="dropdown-item" href="c++_propuestas.php">Propuestos</a></li>
             <li><a class="dropdown-item" href="c++_condicionales.php">Condicionales</a></li>
              <li><a class="dropdown-item" href="c++_for.php">For</a></li>
@@ -76,11 +76,11 @@
 </nav>
 
 <header class="encabezado-index">
-<h2>Bienvenido al portafolio web de evidencias de estructuras de datos</h2>
+<h2>Bienvenido al portafolio web de evidencias de Estructuras de Datos</h2>
 <br> 
 <h2>4A-Software</h2>
 <br> 
-<h2>Universidad tecnologica de escuinapa</h2>
+<h2>Universidad Tecnológica de Escuinapa</h2>
 </header>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> 
 <!--Esto no lo quites por que cuando lo elimino los menu desplegable no funcionan :O-->
