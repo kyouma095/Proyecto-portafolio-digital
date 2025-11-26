@@ -14,7 +14,7 @@ include('menu.php');
 <body>
 
 <header>
-	Ejercicios básicos de C++ resueltos
+	Ejercicios Básicos de C++ resueltos
 </header>
 <!-- inicio del pdf -->
    <div style="text-align: center; margin: 20px auto;">

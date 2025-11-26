@@ -14,7 +14,7 @@ include('menu.php');
 <body>
 
 <header>
-	Ejercicios con condiciones de C++ resueltos
+	Ejercicios con condiciones (if, else if, else) de C++ resueltos
 </header>
 
 
