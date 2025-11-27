@@ -14,7 +14,7 @@ include('menu.php');
 <body>
 
 <header>
-	Ejercicios con el ciclo do while de C++ resueltos
+	Ejercicios con el ciclo do while resueltos
 </header>
 
 

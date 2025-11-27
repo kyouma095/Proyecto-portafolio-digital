@@ -14,7 +14,7 @@ include('menu.php');
 <body>
 
 <header>
-	Ejercicios con for resueltos
+	Ejercicios con el ciclo for resueltos
 </header>
 <br> <br>
 

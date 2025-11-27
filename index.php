@@ -34,7 +34,8 @@
             <li><a class="dropdown-item" href="java_for.php">For</a></li>
             <li><a class="dropdown-item" href="java_while.php">While</a></li>
             <li><a class="dropdown-item" href="java_do_while.php">Do while</a></li>
-            <li><a class="dropdown-item" href="java_arreglos.php">Arreglos</a></li>
+            <li><a class="dropdown-item" href="java_arreglos.php">Arreglo 1</a></li>
+            <li><a class="dropdown-item" href="java_arreglo_2.php">Arreglo 2</a></li>
             <li><a class="dropdown-item" href="java_listas.php">Listas</a></li>
 
 

@@ -13,7 +13,7 @@ include('menu.php');
 <body>
 
 <header>
-	Ejercicios con arreglos resueltos Java
+	Ejercicio de arreglo 1 resuelto
 </header>
 
 

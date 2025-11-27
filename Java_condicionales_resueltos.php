@@ -15,7 +15,7 @@ include('menu.php');
 <body>
 
 <header>
-	Ejercicios con condiciones (if, else if y else) resueltos en Java
+	Ejercicios con condiciones (if, else if y else) resueltos
 </header>
 
 

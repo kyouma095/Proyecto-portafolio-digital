@@ -13,7 +13,7 @@ include('menu.php');
 <body>
 
 <header>
-	Ejercicios resueltos en Java, propuestos por el grupo
+	Ejercicios propuestos por el grupo resueltos
 </header>
 		   <div style="text-align: center; margin: 20px auto;">
     <iframe src="PDF/Propuestas de ejercicios basicos.pdf" 

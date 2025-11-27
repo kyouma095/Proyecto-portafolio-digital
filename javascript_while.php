@@ -14,7 +14,7 @@ include('menu.php');
 <body>
 
 <header>
-	Ejercicios con while resueltos
+	Ejercicios con el ciclo while resueltos
 </header>
 <br> <br>
 

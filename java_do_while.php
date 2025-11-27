@@ -14,7 +14,7 @@ include('menu.php');
 
 
 <header>
-	Ejercicios con Do while de Java resueltos
+	Ejercicios con el ciclo do while resueltos
 </header>
 
 

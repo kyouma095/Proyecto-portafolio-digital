@@ -12,7 +12,7 @@ include('menu.php');
 <body>
 
 <header>
-	Ejercicios con el ciclo for de C++ resueltos
+	Ejercicios con el ciclo for resueltos
 </header>
 
 
