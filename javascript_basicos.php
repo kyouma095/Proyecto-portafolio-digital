@@ -14,7 +14,7 @@ include('menu.php');
 <body>
 
     <header>
-        Ejercicios Básicos
+        Ejercicios básicos
     </header>
 
     <br> <br>

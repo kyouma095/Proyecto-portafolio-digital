@@ -13,7 +13,7 @@ include('menu.php');
 <body>
 <header>
     
-	Ejercicios Básicos de Java resueltos
+	Ejercicios básicos resueltos
 
 </header>
 	  <div style="text-align: center; margin: 20px auto;">

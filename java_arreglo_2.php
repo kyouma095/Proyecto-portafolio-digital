@@ -1,8 +1,7 @@
+
 <?php 
 include('menu.php');
-
  ?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,19 +9,13 @@ include('menu.php');
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
 
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-
 <body>
 
 <header>
-
-	Ejercicios con  el ciclo while resueltos
+	Ejercicio de arreglo 2 resuelto
 </header>
-
-
-
 
 </body>
 </html>

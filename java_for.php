@@ -15,7 +15,7 @@ include('menu.php');
 <body>
 
 <header>
-	Ejercicios con el ciclo for resueltos en Java
+	Ejercicios con el ciclo for resueltos
 </header>
 
 
