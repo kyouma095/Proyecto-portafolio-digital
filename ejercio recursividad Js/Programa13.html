@@ -1,0 +1,21 @@
+<script>
+var N = parseInt(prompt("Ingrese el número de artículos: "));
+var totalPagar = 0;
+var totalDescuento = 0;
+for (var i = 1; i <= N; i++) {
+    var precio = parseFloat(prompt("Ingrese el precio del artículo " + i + ":"));
+    var descuento = 0;
+
+
+    if (precio >= 200) {
+        descuento = precio * 0.15;
+    } else if (precio > 100) {
+        descuento = precio * 0.12;
+    } else {
+        descuento = precio * 0.10;
+    }
+    totalPagar += precio - descuento;
+    totalDescuento += descuento;
+}
+alert("Total de descuento aplicado: $" + totalDescuento + "/nTotal a pagar por los " + N + " artículos: $" + totalPagar);
+</script>

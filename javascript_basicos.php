@@ -27,7 +27,7 @@ cuatrimestre, construya un programa que imprima la matrícula del alumno y
 el promedio de sus calificaciones.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/ejemplo_javacrip1.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -38,7 +38,7 @@ el promedio de sus calificaciones.
 de un número entero positivo.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/programa2.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -49,7 +49,7 @@ de un número entero positivo.
 rectángulo, calcule el perímetro y la superficie del mismo.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/Programa3.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -61,7 +61,7 @@ cantidad de dinero entregada por el cliente, calcule e imprima el cambio que
 se debe entregar al mismo.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/Programa4.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -72,7 +72,7 @@ se debe entregar al mismo.
 calcule e imprima su área.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/Programa5.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -85,7 +85,7 @@ respectivamente; escriba el nombre del dinosaurio, su peso expresado en
 kilogramos y su longitud expresada en metros
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/Programa6.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -98,7 +98,7 @@ pero el precio de la gasolina está fijado en litros. El diagrama de flujo debe
 calcular e imprimir lo que hay que cobrarle al cliente.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/Programa7.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -109,7 +109,7 @@ calcular e imprimir lo que hay que cobrarle al cliente.
 cilindro, calcule e imprima el área y su volumen.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/Programa8.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -120,7 +120,7 @@ cilindro, calcule e imprima el área y su volumen.
 hay en un determinado número de días.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/Programa9.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -131,7 +131,7 @@ hay en un determinado número de días.
 determinar su área.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/Programa10.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -142,7 +142,7 @@ determinar su área.
 datos las coordenadas de los puntos P1 y P2.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/Programa11.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -154,7 +154,7 @@ variables, de tal manera que sean las variables A, B, C, y el valor de B se
 almacena en A, B obtenga el valor de C y C el valor de A.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/Programa12.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -166,7 +166,7 @@ almacena en A, B obtenga el valor de C y C el valor de A.
 del cheque es un número entero.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/Programa13.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -176,7 +176,7 @@ del cheque es un número entero.
             <label class="label-ejercicios">14.Construya un programa, que dado los datos enteros A y B,
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/Progama14.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -189,7 +189,7 @@ soles peruanos.
 
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/Programa15.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -201,7 +201,7 @@ de la estancia está especificada en acres. Construya un programa, tal que dado 
 extensión del mismo en hectáreas
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/Programa16.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -215,7 +215,7 @@ Construya un programa que calcule la velocidad de los participantes, en
 kilómetros por hora, de las diferentes competencias.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/programa17.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -227,7 +227,7 @@ cono; calcule e imprima el área de la base, el área lateral, el área total y 
 volumen.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/programa18.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -238,7 +238,7 @@ volumen.
 el área y su volumen.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/programa19.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -249,7 +249,7 @@ el área y su volumen.
 de venta.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/programa20.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -261,7 +261,7 @@ de venta.
 positivos).
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/programa21.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -274,7 +274,7 @@ positivos).
 positivos)
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/programa22.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -284,7 +284,7 @@ positivos)
             <label class="label-ejercicios">23.Determinar la suma de los N primeros números enteros positivos
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/Programa23.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -295,18 +295,17 @@ positivos)
 cierta cantidad de tiempo a una tasa de interés determinada
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/Progama24.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
-     <!--Ejercicio 25-->
-    <div class="contenedor-ejercicios">
+   <div class="contenedor-ejercicios">
         <form>
             <label class="label-ejercicios">25.Crear un programa que permita convertir una cantidad de segundos en horas,
 minutos y segundos
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/Programa25.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -317,7 +316,7 @@ minutos y segundos
 metros, el resto en decímetros, centímetros y milímetros.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/Programa26.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -327,7 +326,7 @@ metros, el resto en decímetros, centímetros y milímetros.
             <label class="label-ejercicios">27.Obtener el valor de c y d 
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/Programa27.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -338,7 +337,7 @@ metros, el resto en decímetros, centímetros y milímetros.
 suma de los 4 número ingresados.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/Programa28.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -348,7 +347,7 @@ suma de los 4 número ingresados.
             <label class="label-ejercicios">29.Convertir grados sexagesimales a centesimales.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/Programa29.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -360,7 +359,7 @@ ax2 + bx + c. Leer a continuación un cierto valor para la variable independient
 x y calcular y escribir y = P(x).
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/Programa30.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -373,7 +372,7 @@ empacan para la venta caben 12 pañales. ¿Cuántas cajas debe conseguir
 Juan Carlos para empacar los pañales fabricados en una semana (5 días)?
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/Programa31.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -384,7 +383,7 @@ Juan Carlos para empacar los pañales fabricados en una semana (5 días)?
 = 1000 m
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/Programa32.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -396,7 +395,7 @@ y el año de nacimiento.
 
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/Programa33.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -407,7 +406,7 @@ y el año de nacimiento.
 453.59g
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/Programa34.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -417,7 +416,7 @@ y el año de nacimiento.
             <label class="label-ejercicios">35.Convertir de micrómetros a nanómetros, sabiendo que 1microm = 1000nm
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/Programa35.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -427,7 +426,7 @@ y el año de nacimiento.
             <label class="label-ejercicios">36.Convertir de Galones a barriles, sabiendo que 1barril = 34,97galones
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/Programa36.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -438,7 +437,7 @@ y el año de nacimiento.
 1Km=10000dm y 1dm=10cm.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/Programa37.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -449,7 +448,7 @@ y el año de nacimiento.
 1y=3pies, 1m=3.28pies
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/Programa38.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -460,7 +459,7 @@ y el año de nacimiento.
 sabiendo que 1Euro=1.31$, y 2000pc = 1$.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/Programa39.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -471,7 +470,7 @@ sabiendo que 1Euro=1.31$, y 2000pc = 1$.
 sabiendo que 1gc = 9/5gf
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios basicos javascript/Programa40.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 

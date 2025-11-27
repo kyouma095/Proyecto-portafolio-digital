@@ -1,0 +1,19 @@
+<script>
+// que solo se pueda mostrar las multiplicaciones de numeros impares 
+var tab1 = parseInt(prompt("Ingresa el valor de la primera tabla"));
+var tab2 = parseInt(prompt("Ingresa el valor de la segunda tabla"));
+
+for(var a = tab1; a<=tab2; a++){
+        
+    for(var b = 1; b<=10; b++){
+        if(a % 2 == 1){
+        var res = a*b;
+        
+        document.write(a+"x"+b+" = "+res+"<br>");
+    }
+}
+    document.write("<br>");
+}
+
+
+</script>

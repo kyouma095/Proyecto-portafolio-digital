@@ -1,0 +1,33 @@
+ <script>
+	var tipo = prompt("Ingresa el tipo de póliza (A o B):");
+	var costoBase;
+	if (tipo == "A") {
+    	costoBase = 1200;
+	} else if (tipo == "B") {
+    	costoBase = 950;
+	} else {
+        alert("Tipo de póliza no válido.");
+	}
+	var alcohol = prompt("¿Tiene hábito de beber alcohol? (si/no):");
+	var lentes = prompt("¿Usa lentes? (si/no):");
+	var enfermedad = prompt("¿Tiene alguna enfermedad? (si/no):");
+	var edad = parseInt(prompt("Ingresa tu edad:"));
+	var recargo = 0;
+	if (alcohol == "si") {
+    	recargo += costoBase * 0.10;
+	}
+	if (lentes == "si") {
+    	recargo += costoBase * 0.05;
+	}
+	if (enfermedad == "si") {
+    	recargo += costoBase * 0.05;
+	}
+	if (edad > 40) {
+    	recargo += costoBase * 0.20;
+	} else {
+    	recargo += costoBase * 0.10;
+	}
+ 
+	var total = costoBase + recargo;
+	alert("El costo total de la póliza es: $" + total);
+</script>

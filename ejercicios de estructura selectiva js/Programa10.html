@@ -1,0 +1,32 @@
+<script>	
+	var nombre = prompt("ingrese su nombre")
+	var edad = parseFloat(prompt("ingrese su edad"))
+	var calificacion = parseFloat(prompt("ingrese su calificacion"))
+
+	if(edad >=18){
+	if(calificacion >=9){
+		alert("recibiras una beca de $2.000")
+	}
+	else if(calificacion >=7){
+	 alert("recibiras una beca de $1.000")
+	}else if(calificacion >=6){
+	 alert("recibiras una beca de $500")
+	}else if(calificacion <6){
+		alert("no podras recibir una beca ")
+	}
+    }
+	else{
+		if(edad<=17){
+         
+		}if(calificacion >=9){
+			alert("se te asignara una beca de $3.000")
+		}else if(calificacion >=8){
+			alert("se te asignara una beca de $2.000")
+		}else if(calificacion >=6){
+			alert("se te dara una beca de $100")
+		}else if(calificacion <6){
+			alert("no podras recibir una beca")
+		}
+		
+	}
+</script>

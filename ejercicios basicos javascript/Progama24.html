@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Programa 24</title>
+</head>
+<body>
+    <script>
+        var c = parseFloat(prompt("Ingresa la capital inicial"));
+        var t = parseFloat(prompt("Ingresa la cantidad de tiempo"));
+        var r = parseFloat(prompt("Ingresa la tasa de interes"));
+        var m = Math.pow((1.0+(r/100)), t)*c
+        var i = m-c
+        alert("el total generado es "+m+"\n"+"el interes generado es "+i);
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Programa25</title>
+</head>
+<body>
+    <script>
+        
+        var s = parseFloat(prompt("Ingresa segundos"))
+        var h = parseInt(s/3600);
+        var sr = s%3600;
+        var m = sr/60;
+        var ss = sr%60;
+  
+        alert(Math.round(s)+" segundos equivalen a "+h+" horas con "+Math.round(m)+" minutos y "+Math.round(ss)+" segundos")
+        
+    </script>
+</body>
+</html>

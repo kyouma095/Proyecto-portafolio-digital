@@ -1,0 +1,14 @@
+<script>
+var ct = parseInt(prompt("Ingresa el precio del traje"));
+var de = 0;
+var pf = 0;
+
+if(ct>2500){
+    de = ct*0.15;
+    pf = ct-de;
+}else{
+    de = ct*0.08;
+    pf = ct-de;
+}
+alert("el precio original del traje es: "+ct+" pesos\n"+" El descuento del traje es: "+de+" pesos\n"+"El precio final del traje es: "+pf+" pesos")
+</script>

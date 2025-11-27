@@ -1,0 +1,13 @@
+<script>
+var años = parseInt(prompt("Ingresa los años de antigüedad del empleado:"));
+	var bono = 0;
+ 
+	if (años >= 1 && años <= 5) {
+    	bono = años * 100;
+	} else if (años > 5) {
+    	bono = 1000;
+	} else {
+    	bono = 0;
+	}
+	alert("El bono que recibirá el trabajador es: $" + bono);
+</script>

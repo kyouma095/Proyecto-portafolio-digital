@@ -1,0 +1,37 @@
+
+<script type="text/javascript">
+    
+
+
+      var n = parseFloat(prompt("Ingrese el número total de focos: "))
+      
+      var verdes = 0
+      var blancos = 0
+      var rojos = 0
+      var color
+      var i = 1
+
+        do{
+            
+            color = prompt("Ingrese el color del foco #" + i + " (verde, blanco o rojo): ");
+
+            if (color === "verde") {
+                verdes++;
+            } else if (color === "blanco") {
+                blancos++;
+            } else if(color === "rojo") {
+                rojos++;
+            } else {
+                alert("Color no válido, intente de nuevo.");
+                i--;
+            }
+            i++;
+        }while( i <= n) 
+
+        document.write("--- RESULTADOS ---<br>");
+        document.write("Focos verdes: " + verdes+"<br>");
+        document.write("Focos blancos: " + blancos+"<br>");
+        document.write("Focos rojos: " + rojos);
+
+</script>
+

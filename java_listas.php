@@ -17,8 +17,15 @@ include('menu.php');
 <header>
 	Listas con Java
 </header>
-
-
+	
+ <div style="text-align: center; margin: 20px auto;">
+    <iframe src="PDF/3P - Listas Java.pdf" 
+            width="80%" 
+            height="1000px"
+            style="border: 1px solid #ccc; border-radius: 5px;">
+        Tu navegador no soporta iframes
+    </iframe>
+</div>
 
 
 </body>

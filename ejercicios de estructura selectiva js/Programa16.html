@@ -1,0 +1,17 @@
+	<script type="text/javascript">
+	var alumnos = parseFloat(prompt("Ingresa la cantidad de alumnos"))
+
+	if (alumnos > 100) {
+		var costo = alumnos*20;
+		alert("El costo es: "+costo);
+	} else if (alumnos <= 100 && alumnos >= 50) {
+		var costo = alumnos*35;
+		alert("El costo es: "+costo);
+	} else if (alumnos <= 49 && alumnos >= 20) {
+		var costo = alumnos*40;
+		alert("El costo es: "+costo);
+	} else{
+		var costo = alumnos*70;
+		alert("El costo es: "+costo)
+	}
+	</script>

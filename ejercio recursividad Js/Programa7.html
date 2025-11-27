@@ -1,0 +1,21 @@
+ <script>
+    var c = parseInt(prompt("Ingresa la cantidad de ciudades con tiendas"));
+    var tc = 0;
+    for(var i = 1; i <= c; i++){
+        var t = parseInt(prompt("Ingresa la cantidad de tiendas de la ciudad " + i));
+        var tciudad = 0;
+        for(var o = 1; o <= t; o++){
+            var n = parseInt(prompt("Ingresa la cantidad de empleados de la tienda " + o));
+            var tt = 0;
+            for(var p = 1; p <= n; p++){
+                var v = parseInt(prompt("Ingresa la cantidad de ventas del empleado " + p));
+                tt = tt+v;
+            }
+            document.write("Total de la tienda " + o + ": " + tt+"<br>");
+            tciudad = tciudad + tt;
+        }
+        document.write("Total de la ciudad " + i + " : " + tciudad+"<br>");
+        tc = tc + tciudad;
+    }
+    document.write("Total de ventas en un solo día: " + tc);
+</script>

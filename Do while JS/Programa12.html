@@ -1,0 +1,12 @@
+<script>
+        var ahorroDia = 0.03;
+        var ahorroTotal = 0;
+        var dia = 1;
+        do{
+            document.write("Dia " + dia + ": " + ahorroDia + " pesos"+"<br>");
+            ahorroDia = ahorroDia *3;
+            ahorroTotal = ahorroTotal + ahorroDia;  
+            dia++;
+        }while(dia<=365);
+    document.write("\nEl ahorro total en un año es: " + ahorroTotal + " pesos");
+</script>

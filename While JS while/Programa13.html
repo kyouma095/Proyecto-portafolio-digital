@@ -1,0 +1,26 @@
+<title>Ejercicio_13</title>
+<script>
+var N = parseInt(prompt("Ingrese el número de artículos: "));
+var totalPagar = 0;
+var totalDescuento = 0;
+var i = 1;
+while (i <= N) {
+	var precio = parseFloat(prompt("Ingrese el precio del artículo " + i + ":"));
+	var descuento = 0;
+ 
+	if (precio >= 200) {
+    	descuento = precio * 0.15;
+	} else if (precio > 100) {
+    	descuento = precio * 0.12;
+	} else {
+    	descuento = precio * 0.10;
+	}
+	totalPagar += precio - descuento;
+	totalDescuento += descuento;
+	i++;
+}
+alert(
+  "Total de descuento aplicado: $" + totalDescuento +
+  "\nTotal a pagar por los " + N + " artículos: $" + totalPagar
+);
+</script>

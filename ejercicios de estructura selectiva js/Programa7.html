@@ -1,0 +1,35 @@
+	<script>
+	var clave = parseFloat(prompt("ingrese la clave de los articulos (1-6):"))
+	var materiaprima = parseFloat(prompt("ingrese el costo de la materia prima"))
+
+	var manodeobra = 0
+	var porgastofabricacion = 0
+
+	if (clave == 3 || clave == 4) {
+            manodeobra = 0.75; 
+        } else if (clave == 1 || clave == 5) {
+            manodeobra = 0.80; 
+        } else if (clave == 2 || clave == 6) {
+            manodeobra = 0.85; 
+        }
+
+         if (clave == 2 || clave == 5) {
+            porgastofabricacion = 0.30; 
+        } else if (clave == 3 || clave == 6) {
+            porgastofabricacion = 0.35; 
+        } else if (clave == 1 || clave == 4) {
+            porgastofabricacion = 0.28; 
+        }
+
+        var manoObra = materiaprima * manodeobra;
+        var gastoFabricacion = materiaprima * porgastofabricacion;
+        var costoProduccion = materiaprima + manoObra + gastoFabricacion;
+        var precioVenta = costoProduccion + (costoProduccion * 0.45);
+
+        alert("Clave del artículo: $" + clave+"\nMateria prima: $" + materiaprima+"\nMano de obra: $" +manodeobra * 100+manoObra
+        +"\nGasto de fabricación:$" + porgastofabricacion * 100+gastoFabricacion+"\nCosto de producción:$" + costoProduccion+"\nPrecio de venta:$" + precioVenta);
+        
+
+	
+
+</script>

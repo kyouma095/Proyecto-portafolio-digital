@@ -1,0 +1,17 @@
+<title>Programa_12 </title>
+<script>
+var ahorroDiario = 0.03;
+var ahorroTotal = 0;
+var mensaje = "";
+var dia = 1;
+while (dia <= 365) {
+    ahorroTotal += ahorroDiario;
+    if (dia <= 22) {
+        mensaje += "Dia " + dia + ": Ahorra $" + ahorroDiario + "\n";
+    }
+    ahorroDiario *= 3;
+    dia++;
+}
+mensaje += "\nEl ahorro total en un año es de: $" + ahorroTotal;
+alert(mensaje);
+</script>

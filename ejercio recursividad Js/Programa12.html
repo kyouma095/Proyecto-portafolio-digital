@@ -1,0 +1,16 @@
+<script>
+var ahorroDiario = 0.03;
+var ahorroTotal = 0;
+var mensaje = "";
+for (var dia = 1; dia <= 365; dia++) {
+    
+    ahorroTotal += ahorroDiario;
+    if (dia <= 22) {
+
+        mensaje += "Dia " + dia + ": Ahorra $" + ahorroDiario + "\n";
+    }
+    ahorroDiario *= 3;
+}
+mensaje += "\nEl ahorro total en un año es de: $" + ahorroTotal;
+alert(mensaje);
+</script>

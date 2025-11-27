@@ -1,0 +1,28 @@
+<script>
+    var su = 0;
+    var pr = 0;
+    var c = 1;
+    
+    while(c>0){
+        var es1 = prompt("Ingresa la estatura de la persona:");    
+        if(es1 === null || es1.trim() === ""){
+            alert("Finalizado");
+            break;
+        }  
+
+        var es2= parseFloat(es1);
+        if(isNaN(es2)){
+            alert("Por favor ingresa un número válido.");
+            continue;
+        }
+            //Calculo
+            su =su + es2;
+            pr = su / c;
+            alert("Estatura de la persona " + c + " registrada.");
+            c++;
+        
+    }
+        alert("La estatura promedio es " + pr.toFixed(2));
+
+</script>
+

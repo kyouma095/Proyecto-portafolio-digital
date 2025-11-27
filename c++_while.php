@@ -14,7 +14,14 @@ include('menu.php');
 <header>
 	Ejercicios con el ciclo while resueltos
 </header>
-
+   <div style="text-align: center; margin: 20px auto;">
+    <iframe src="PDF/Ejercicios C++ con While.pdf" 
+            width="80%" 
+            height="1000px"
+            style="border: 1px solid #ccc; border-radius: 5px;">
+        Tu navegador no soporta iframes
+    </iframe>
+</div>
 
 </body>
 </html>

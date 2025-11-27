@@ -1,0 +1,33 @@
+ <script>
+    var n = parseInt(prompt("Ingrese la cantidad de trabajadores"));
+    var sino =  prompt("¿Todos los trabajadores ganan lo mismo por hora?");
+    var dia, hr, sind, stt=0, shr;
+    var suma = 0;
+    if(sino.toLowerCase() == "si"){
+        shr=parseFloat(prompt("Ingresa el salario por hora trabajada"));
+    }
+    document.write("Ejercicio 6<br>--------Informacion de los pagos--------<br>")
+    for(var i=1; i<=n; i++){
+        if(sino.toLocaleLowerCase() == "no"){
+            shr = parseFloat(prompt("Ingresa el salario del empleado "+i));
+        }
+        dia = parseInt(prompt("Ingrese el número de días que trabajo el empleado "+i));
+        hr = parseFloat(prompt(`Ingrese la cantidad de horas que trabajo por día 
+        \n(En el caso de que el empleado haya trabajado un número de horas diferente cada día, Ingrese 0)`))
+        if(hr == 0){
+            for( var j=1; j<=dia; j++){
+                hr = parseFloat(prompt("Ingrese el total de horas que trabajo el día "+j));
+                suma = suma + hr;
+            }
+            sind = suma*shr;
+        }else if(dia>7 | hr > 24){
+            alert("ERROR: datos no correctos");
+            i--;
+        }else{
+            sind = shr*hr*dia;
+        }
+        stt = stt + sind;
+        document.write(`Al empleado ${i} se le debe pagar $${sind} esta semana<br>`);
+    }
+    document.write(`En total, la empresa debe pagar $${stt} a los empleados`);
+</script>
