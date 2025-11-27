@@ -1,0 +1,20 @@
+<title>Programa30</title>
+<script>
+
+    const a= 4;
+    const b = 6;
+    const c = 5;
+
+    alert("P(x)=x^3+ax^2+bx+c\nDonde a =4, b = 6, c = 5.");
+    var x = parseFloat(prompt("Ingresa el valor de x: "));
+
+    var x2 = Math.pow(x,2);
+    var x3 = Math.pow(x,3);
+    var y  = x3+(a*x2)+(b*x)+c;
+
+    alert("y = P(x) = ("+x+")^3 + a("+x+")^2 + "+"b("+x+") + c\n"+
+        "y = P(x) = "+x3+" + "+x2+"a + "+x+"b + c\n"+
+        "y = P(x) ="+x3+" + "+(a*x2)+" + "+(b*x)+" + "+c+"\n"+
+        "y = P(x) = "+y
+    )
+</script>

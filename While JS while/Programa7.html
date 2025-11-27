@@ -1,0 +1,36 @@
+<script>
+    var cantC= parseInt(prompt("Cantidad de ciudades: "));
+        var totalCadenaV=0; 
+        var c=1;
+        while(c<=cantC){
+            var cantT= parseInt(prompt("Cantidad de tiendas de la ciudad "+c+": "));
+            var totalCiudadV=0;
+            var t=1;
+            while( t<=cantT){
+                var cantE= parseInt(prompt("Cantidad de empleados de la tienda "+t+": "));
+                var totalTiendaV=0;
+                var e=1;
+                while(e<=cantE){
+                    var cantV= parseInt(prompt("Cantidad de ventas del empleado: "+e+": "));
+                    var totalTiendaV=0;                   
+                    var totalEmpleadoV=0;
+                    var v=1;
+                    while( v<=cantV){
+                        var montoV= parseFloat(prompt("Ingresa monto de la venta: "));
+                        totalEmpleadoV=totalEmpleadoV+montoV;    
+                        v++;                    
+                    }
+                    alert("El empleado "+e+" generó $"+totalEmpleadoV+" pesos en ventas");
+                    totalTiendaV=totalTiendaV+totalEmpleadoV;
+                     e++;
+                }
+                alert("La tienda "+t+" generó $"+totalTiendaV+" pesos en ventas.");
+                totalCiudadV=totalCiudadV+totalTiendaV;
+                t++;
+            }
+            alert("La ciudad "+c+" generó $"+totalCiudadV+" pesos en ventas.");
+            totalCadenaV=totalCadenaV+totalCiudadV;
+            c++;
+        }
+        alert("La cadena generó $"+totalCadenaV+" pesos.");
+</script>

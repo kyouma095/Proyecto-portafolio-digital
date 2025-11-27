@@ -1,0 +1,48 @@
+<script>
+var d = parseInt(prompt("Ingresa el dia "));
+var m = parseInt(prompt("Ingresa el mes"));
+var a = parseInt(prompt("Ingresa el ano "));
+
+var dS = d;
+var mS = m;
+var aS = a;
+
+if (m == 2) {
+            if (d == 28) {
+                dS = 1;
+                mS = 3;
+            } else {
+                dS = d + 1;
+            }
+        }
+        else if (m== 4 || m == 6 || m == 9 || m == 11) {
+            if (d == 30) {
+                dS = 1;
+                mS = m + 1;
+            } else {
+                dS = d + 1;
+            }
+        }
+        else if (m == 12) {
+            if (d == 31) {
+                dS = 1;
+                mS = 1;
+                aS = a + 1;
+            } else {
+                dS = d + 1;
+            }
+        }
+        else {
+            if (d == 31) {
+                dS = 1;
+                mS = m + 1;
+            } else {
+                dS = d + 1;
+            }
+        }
+
+        alert("La fecha ingresada fue: "+d+"/"+m+"/"+a+"\n El dia siguiente es: "+dS+"/"+mS+"/"+aS);
+
+
+
+</script>

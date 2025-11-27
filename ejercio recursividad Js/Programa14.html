@@ -1,0 +1,20 @@
+<script>
+var N = parseInt(prompt("Ingrese el número de clientes:"));
+var totalSaldo = 0;
+var totalPagosMinimos = 0;
+var totalPagosSinInteres = 0;
+for (var i = 1; i <= N; i++) {
+    var saldo = parseFloat(prompt("Ingrese el saldo actual del cliente " + i + ":"));
+   
+    var pagoMinimo = saldo * 0.10;
+    var pagoSinInteres = saldo;    
+    totalSaldo += saldo;
+    totalPagosMinimos += pagoMinimo;
+    totalPagosSinInteres += pagoSinInteres;
+}
+alert(
+  "Total de saldos de los " + N + " clientes: $" + totalSaldo + "\n" +
+  "Total de pagos mínimos: $" + totalPagosMinimos + "\n" +
+  "Total de pagos sin generar intereses: $" + totalPagosSinInteres
+);
+</script>

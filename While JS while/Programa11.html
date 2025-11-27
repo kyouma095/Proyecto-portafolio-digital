@@ -1,0 +1,24 @@
+<title>Ejercicio_11 </title>
+<script>
+    var N = parseInt(prompt("Ingresa el numero total de focos:"));
+    var verdes = 0;
+    var blancos = 0;
+    var rojos = 0;
+    var i = 1;
+    while (i <= N) {
+        var color = prompt("Ingresa el color del foco " + i + " (verde, blanco o rojo):");
+        if (color === "verde") {
+            verdes++;
+        } else if (color === "blanco") {
+            blancos++;
+        } else if (color === "rojo") {
+            rojos++;
+        } else {
+            alert("Color no valido.");
+        }
+        i++;
+    }
+    alert("Cantidad de focos verdes: " + verdes +
+          "\nCantidad de focos blancos: " + blancos +
+          "\nCantidad de focos rojos: " + rojos);
+</script> 

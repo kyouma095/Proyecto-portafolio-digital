@@ -1,0 +1,41 @@
+<script>
+    var N = parseInt(prompt("Ingrese el número total de artículos:"));
+   
+    var precio;
+    var descuento;
+    var costoTotal = 0;
+    var descuentoTotal = 0;
+    var pagoNeto = 0;
+    var i = 1;
+
+
+    do{
+        precio = parseFloat(prompt("Ingrese el precio del artículo " + i + ":"));
+       
+        if (precio >= 200){
+            descuento = precio * 0.15;
+        } else if (precio > 100){
+            descuento = precio * 0.12;
+        } else {
+            descuento = precio * 0.10;
+        }
+
+
+        var costoFinal = precio - descuento;
+
+
+        alert("Artículo " + i + "\n" + "Costo: " + precio + "\n" + "Descuento: " + descuento + "\n" + "Costo Final: " + costoFinal);
+
+
+        costoTotal = costoTotal + precio;
+        descuentoTotal = descuentoTotal + descuento;
+        pagoNeto = pagoNeto + costoFinal;
+        i++;
+    }while (i <= N);
+
+
+    alert("RESUMEN DE COMPRA\n" +
+          "Costo Total de Artículos: " + costoTotal + "\n" +
+          "Descuento Total Obtenido: " + descuentoTotal + "\n" +
+          "Total a Pagar por todos los artículos: " + pagoNeto);
+</script>

@@ -1,0 +1,23 @@
+<script>
+    var N = parseInt(prompt("Ingresa la cantidad de numeros: "));
+    var ceros = 0;
+    var menores = 0;
+    var mayores = 0;
+   
+    for (var i = 1; i <= N; i++) {
+        var num = parseFloat(prompt("Ingresa el numero: " + i + ":"));
+
+
+        if (num == 0) {
+            ceros++;
+        } else if (num < 0) {
+            menores++;
+        } else {
+            mayores++;
+        }
+    }
+    alert("Resultados:\n" +
+          "Cantidad de ceros: " + ceros + "\n" +
+          "Cantidad menores a cero: " + menores + "\n" +
+          "Cantidad mayores a cero: " + mayores);
+</script>

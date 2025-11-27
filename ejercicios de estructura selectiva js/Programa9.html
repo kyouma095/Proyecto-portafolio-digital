@@ -1,0 +1,21 @@
+    <script>
+		
+	var precio = parseFloat(prompt("ingrese el precio del articulo"))
+	var calculo
+    var descuento
+
+	if(precio >=200){
+		calculo = precio * 0.15;
+		descuento = precio - calculo
+		alert("tienes un descuento de: " + descuento)
+	}else if(precio >=100){
+		calculo = precio * 0.12
+		descuento = precio - calculo
+		alert("tienes un descuento de: " + descuento)
+	}else if(precio <=100){
+		calculo = precio * 0.10
+		descuento = precio - calculo
+		alert("tienes un descuento de: " + descuento)
+	}
+
+</script>

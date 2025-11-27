@@ -1,0 +1,23 @@
+<script>
+    var n= parseInt(prompt("Numero de trabajadores: "));
+    var ph= parseFloat(prompt("Pago por hora: "));
+    var pt= 0;
+    var i=1;
+    while( i<=n){
+            var dt= parseInt(prompt("Dias laborados del trabajador "+i+": "));           
+            var sh=0;
+            var ss=0;
+            var d=1;
+            while( d<=dt){
+                var ht= parseInt(prompt("Horas trabajadas del dia "+d+": "));
+                sh=sh+ht;
+                d++;
+            }
+            ss=sh*ph;
+            alert("Empleado "+i+". Sueldo semanal: "+ss);
+            pt=pt+ss;   
+            i++;   
+        }
+    alert("Pago total de la empresa a los "+n+" trabajadores: "+pt);
+
+</script>

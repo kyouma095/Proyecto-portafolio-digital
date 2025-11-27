@@ -1,0 +1,35 @@
+<script>
+    var N = parseInt(prompt("Ingrese el numero de ventas: "));
+
+    var  A = 0, B = 0, C = 0;        //Contadores 
+    var T1 =  0, T2 = 0, T3 = 0, TT = 0;      //Totales 
+
+    var CN = 1 ;
+    do {
+        var V = parseFloat(prompt("Ingrese el monto de la venta " + CN + ": "));
+
+        if (V > 1000) {
+            A++;
+            T1 += V;
+        } else if (V > 500){
+            B++;
+            T2 += V;
+        }else if(V >= 0  && V <= 500){
+            C++;
+            T3 += V;
+        }else {
+            alert("Monto inválido.");
+            CN--;
+        }
+        CN++;
+    } while ( CN <= N);
+
+    TT = T1+ T2+ T3;
+    
+    alert("\n----- Resultados -----"
+        + "\nVentas mayores a $1000: " + A + "\nTotal: " + T1
+        + "\nVentas mayores a $500 pero menores o iguales $1000: " + B + "\nTotal: " + T2
+        + "\nVentas menores o iguales a $500:  " + C + "\nTotal: " + T3
+        + "\nMonto total vendido (TT): " + TT
+    );        
+</script>

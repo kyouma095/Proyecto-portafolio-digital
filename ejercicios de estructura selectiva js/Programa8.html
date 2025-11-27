@@ -1,0 +1,17 @@
+<script>
+	var horas = prompt("ingrese las horas que se quedara")
+	var costo = 0
+
+	if (horas <= 2) {
+            costo = horas * 5.00;
+        } else if (horas <= 5) {
+            costo = (2 * 5.00) + ((horas - 2) * 4.00);
+        } else if (horas <= 10) {
+            costo = (2 * 5.00) + (3 * 4.00) + ((horas - 5) * 3.00);
+        } else if (horas > 10) {
+            costo = (2 * 5.00) + (3 * 4.00) + (5 * 3.00) + ((horas - 10) * 2.00);
+        }
+        alert("Horas en el estacionamiento: " + horas+"\ntotal a pagar: " + costo)
+	
+
+</script>

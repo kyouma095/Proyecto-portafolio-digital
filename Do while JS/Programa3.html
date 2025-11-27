@@ -1,0 +1,14 @@
+<script>
+
+var mes = 1;
+var ahorroTotal=0; 
+
+do {
+    var deposito = parseFloat(prompt("Deposita la cantidad del mes " + mes + ":"));
+    ahorroTotal += deposito;
+    alert("Ahorro acumulado al mes " + mes + ": $" + ahorroTotal);
+    mes++;
+} while (mes <= 12);
+
+alert("Ahorro total en el año: $" + ahorroTotal);
+</script>

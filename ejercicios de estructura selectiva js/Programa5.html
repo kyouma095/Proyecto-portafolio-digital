@@ -1,0 +1,29 @@
+    <html>
+    <title>Ejercicio</title>
+    <script>
+        var dia = prompt(`Ingresa que tipo de dia es: habil/no habil`);
+        var imp = 0; pag = 0, tot = 0;
+        if(dia=="habil"){
+            var turno = prompt("Ingresa el turno: matutino/vespertino");
+            if(turno == "matutino"){
+                imp = 0.15;
+            }else{
+                imp = 0.1;
+            }
+        }
+        var ti = parseFloat(prompt(`Ingresa cuanto tiempo duro la llamada`));
+        if(ti<=5){
+            pag = 1.0;
+        }else if(ti <= 7){
+            pag = 0.80;
+        }else if(ti<=9){
+            pag = 0.70;
+        }else{
+            pag = 0.50;
+        }
+        tot = ti*pag+(ti*pag*imp);
+        alert(`El costo por llamda es de = ${pag}\n
+        el impuesto es de = ${imp}\n
+        El total a pagar por la llamada es de = ${tot} `)
+    </script>
+</html>

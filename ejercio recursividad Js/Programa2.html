@@ -1,0 +1,15 @@
+<script>
+
+
+    var n = parseInt(prompt("Ingresa la cantidad de personas"))
+    var c = 0;
+    var prom = 0;
+    for(var i= 1;i<=n; i++){
+        var a = parseFloat(prompt("Ingresa la altura de la persona "+ i));
+         c = c+a;
+        prom = c/n;
+    }
+    alert("El promedio de estaturas de las "+n+" personas es de "+prom)
+
+
+</script>

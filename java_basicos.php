@@ -6,14 +6,14 @@ include('menu.php');
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Ejercicios basicos de Java</title>
+	<title>Ejercicios básicos de Java</title>
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 <header>
     
-	Ejercicios básicos resueltos
+	Ejercicios básicos de Java resueltos
 
 </header>
 	  <div style="text-align: center; margin: 20px auto;">

@@ -1,0 +1,21 @@
+<script>
+	var presupuesto = parseFloat(prompt("Ingresa tu presupuesto disponible:"));
+	var costoKm = parseFloat(prompt("Costo por kilómetro recorrido:"));
+ 
+	var mexico = 750 * 2 * costoKm;
+	var pv = 800 * 2 * costoKm;
+	var acapulco = 1200 * 2 * costoKm;
+	var cancun = 1800 * 2 * costoKm;
+ 
+	if (presupuesto >= cancun) {
+        alert("Puedes ir a Cancún.");
+	} else if (presupuesto >= acapulco) {
+        alert("Puedes ir a Acapulco.");
+	} else if (presupuesto >= pv) {
+        alert("Puedes ir a P.V.");
+	} else if (presupuesto >= mexico) {
+        alert("Puedes ir a México.");
+	} else {
+    	alert("Te tendrás que quedar en casa.");
+	}
+</script>

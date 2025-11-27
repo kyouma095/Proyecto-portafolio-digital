@@ -1,0 +1,28 @@
+<script>
+    var cant = parseInt(prompt("¿Cuántas cantidades desea ingresar?"));
+
+    var contC = 0;
+    var contM = 0;
+    var contMn = 0;
+    var i = 1;
+
+    do{
+        var num = parseInt(prompt("Ingresa la cantidad " + i));
+
+        if (num === 0) {
+            contC++;
+        } else if (num < 0) {
+            contMn++;
+        } else {
+            contM++;
+        }
+
+        i++;
+    }while(i <= cant);
+
+    alert("Cantidades igual a cero: " + contC +
+          "\nCantidades menores a cero: " + contMn +
+          "\nCantidades mayores a cero: " + contM);
+</script>
+
+

@@ -26,27 +26,27 @@ considerando que si son 1000 o más el costo es de 85 centavos; de lo contrario,
 de 90 centavos.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios de estructura selectiva js/Programa1.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
     <!--Ejercicio 2-->
     <div class="contenedor-ejercicios">
         <form>
-            <label class="label-ejercicios">2. Almacenes “El harapiento distinguido” tiene una promoción: a todos los trajes que tienen un
+            <label class="label-ejercicios">2. Almacenes "El harapiento distinguido" tiene una promoción: a todos los trajes que tienen un
 precio superior a $2500.00 se les aplicará un descuento de 15%, a todos los demás se les
 aplicará solo 8%. Realice un programa para determinar el precio final que debe pagar una
 persona por comprar un traje y de cuánto es el descuento que obtendrá.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios de estructura selectiva js/Programa2.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
     <!--Ejercicio 3-->
     <div class="contenedor-ejercicios">
         <form>
-            <label class="label-ejercicios">3. “La langosta ahumada” es una empresa dedicada a ofrecer banquetes; sus tarifas son las
+            <label class="label-ejercicios">3. "La langosta ahumada" es una empresa dedicada a ofrecer banquetes; sus tarifas son las
 siguientes: el costo de platillo por persona es de $95.00, pero si el número de personas es
 mayor a 200 pero menor o igual a 300, el costo es de $85.00. Para más de 300 personas el
 costo por platillo es de $75.00. Se requiere un programa que ayude a determinar el
@@ -56,7 +56,7 @@ el banquete, y con base en éstas de- terminar el costo del platillo que en cier
 constante, con éste se determinará cuánto debe pagar el cliente en total.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios de estructura selectiva js/Programa3.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -71,14 +71,14 @@ si son menos de 30, el costo de la renta del autobús es de $4000.00, sin import
 de alumnos. Realice un programa que permita determinar el pago a la compañía de
 autobuses y lo que debe pagar cada alumno por el viaje.</label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios de estructura selectiva js/Programa4.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
      <!--Ejercicio 5-->
     <div class="contenedor-ejercicios">
         <form>
-            <label class="label-ejercicios">5. La política de la compañía telefónica “Chimefón” es: “Chismea + x -”. Cuando se realiza una
+            <label class="label-ejercicios">5. La política de la compañía telefónica "Chimefón" es: "Chismea + x -". Cuando se realiza una
 llamada, el cobro es por el tiempo que ésta dura, de tal forma que los primeros cinco minutos
 cuestan $ 1.00 c/u, los siguientes tres, 80¢ c/u, los siguientes dos minutos, 70¢ c/u, y a partir
 del décimo minuto, 50¢ c/u. Además, se carga un impuesto de 3% cuando es domingo, y si
@@ -86,28 +86,28 @@ es día hábil, en turno matutino, 15 %, y en turno vespertino, 10 %. Realice un
 determinar cuánto debe pagar por cada concepto una persona que realiza una llamada.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios de estructura selectiva js/Programa5.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
      <!--Ejercicio 6-->
     <div class="contenedor-ejercicios">
         <form>
-            <label class="label-ejercicios">6. “El náufrago satisfecho” ofrece hamburguesas sencillas, dobles y triples, las cuales tienen
+            <label class="label-ejercicios">6. "El náufrago satisfecho" ofrece hamburguesas sencillas, dobles y triples, las cuales tienen
 un costo de $20.00, $25.00 y $28.00 respectivamente. La empresa acepta tarjetas de crédito
 con un cargo de 5% sobre la compra. Suponiendo que los clientes adquieren sólo un tipo de
 hamburguesa, realice un programa para determinar cuánto debe pagar una persona por N
 hamburguesas.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios de estructura selectiva js/Programa6.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
      <!--Ejercicio 7-->
     <div class="contenedor-ejercicios">
         <form>
-            <label class="label-ejercicios">7. Fábricas “El cometa” produce artículos con claves (1, 2, 3, 4, 5 y 6). Se requiere un programa
+            <label class="label-ejercicios">7. Fábricas "El cometa" produce artículos con claves (1, 2, 3, 4, 5 y 6). Se requiere un programa
 para calcular los precios de venta, para esto hay que considerar lo siguiente:
 • Costo de producción = materia prima + mano de obra + gastos de fabricación.
 • Precio de venta = costo de producción + 45 % de costo de producción.
@@ -120,7 +120,7 @@ claves 2 o 5, este gasto representa 30% sobre el costo de la materia prima; si l
 mismo costo para cualquier clave.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios de estructura selectiva js/Programa7.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -136,7 +136,7 @@ siguientes:
 • Después de diez horas el costo por cada una es de dos pesos.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios de estructura selectiva js/Programa8.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -148,7 +148,7 @@ que si su precio es mayor o igual a $200 se le aplica un descuento de 15%, y si 
 mayor a $100 pero menor a $200, el descuento es de 12%, y si es menor a $100, sólo 10%.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios de estructura selectiva js/Programa9.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -169,7 +169,7 @@ $100, y a los alumnos que tengan promedios menores a 6 se les enviará carta de
 invitación. 
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios de estructura selectiva js/Programa10.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -185,7 +185,7 @@ igual a $3500, se otorga 15% de su sueldo, para más de $3500. 10%. Realice el
 programa correspondiente para calcular los dos tipos de bono, asignando el mayor.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios de estructura selectiva js/Programa11.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -201,7 +201,7 @@ cargos se realizan sobre el costo base. Realice un programa para determinar cuá
 cuesta a una persona contratar una póliza.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios de estructura selectiva js/Programa12.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -209,13 +209,13 @@ cuesta a una persona contratar una póliza.
     <div class="contenedor-ejercicios">
         <form>
             <label class="label-ejercicios">13. Diseñe un programa para determinar a qué lugar podrá́ ir de vacaciones una persona,
-considerando que la línea de autobuses “La tortuga” cobra por kilómetro recorrido. Se debe
+considerando que la línea de autobuses "La tortuga" cobra por kilómetro recorrido. Se debe
 considerar el costo del pasaje tanto de ida, como de vuelta; los datos que se conocen y que
 son fijos son: México, 750 km; P.V., 800 km; Acapulco, 1200 km, y Cancún, 1800 km.
 También se debe considerar la posibilidad de tener que quedarse en casa.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios de estructura selectiva js/Programa13.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -228,7 +228,7 @@ más de 5, el bono será́ de $1000. Realice un programa que permita determinar
 recibirá́ un trabajador.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios de estructura selectiva js/Programa14.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -242,7 +242,7 @@ más de 50 horas no está permitido.
 
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios de estructura selectiva js/Programa15.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -256,7 +256,7 @@ y si son menos de 20 alumnos, $70 por cada uno. Realice el programa para determi
 costo del pasaje de cada alumno. 
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios de estructura selectiva js/Programa16.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -264,11 +264,11 @@ costo del pasaje de cada alumno.
     <div class="contenedor-ejercicios">
         <form>
             <label class="label-ejercicios">17. Realice un programa que, con base en una calificación proporcionada (0-10), indique con
-letra la calificación que le corresponde: 10 es “A”, 9 es “B”, 8 es “C”, 7 y 6 son “D”, y de 5 a
-0 son “F”.
+letra la calificación que le corresponde: 10 es "A", 9 es "B", 8 es "C", 7 y 6 son "D", y de 5 a
+0 son "F".
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios de estructura selectiva js/Programa17.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -279,7 +279,7 @@ letra la calificación que le corresponde: 10 es “A”, 9 es “B”, 8 es “
 inferior a $1000.00 Imprima en este caso, el nuevo sueldo del trabajador.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios de estructura selectiva js/Programa18.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -287,10 +287,10 @@ inferior a $1000.00 Imprima en este caso, el nuevo sueldo del trabajador.
     <div class="contenedor-ejercicios">
         <form>
             <label class="label-ejercicios">19. Construya un programa que dado como dato la calificación de un alumno en un exámen,
-escriba “Aprobado” si su calificación es mayor a 7 y “Reprobado” en caso contrario.
+escriba "Aprobado" si su calificación es mayor a 7 y "Reprobado" en caso contrario.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios de estructura selectiva js/Programa19.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -302,7 +302,7 @@ a cero dé como resultado, si dicho número es par o impar. El ejercicio requier
 del dato de entrada.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios de estructura selectiva js/Programa20.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -313,7 +313,7 @@ del dato de entrada.
 medio y el menor de los tres.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios de estructura selectiva js/Programa21.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -326,7 +326,7 @@ C, un aumento del 10% y para la categoría D se aumentará $15.00 Imprima el sue
 aumento incorporado, la categoría y el tiempo de servicio del trabajador.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios de estructura selectiva js/Programa22.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -337,7 +337,7 @@ aumento incorporado, la categoría y el tiempo de servicio del trabajador.
 fecha ingresada es válida.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios de estructura selectiva js/Programa23.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 
@@ -348,7 +348,7 @@ fecha ingresada es válida.
 menor. También deberá considerar el caso en el que los dos números sean iguales.
 </label>
         <br>
-            <button class="boton-ejercicios">Ejecutar</button>
+    <button class="boton-ejercicios" onclick="window.open('ejercicios de estructura selectiva js/Programa24.html', '_blank')">Ejecutar</button>
         </form>
     </div>
 

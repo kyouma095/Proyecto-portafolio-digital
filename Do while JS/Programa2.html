@@ -1,0 +1,24 @@
+<title>Do While 2</title>
+<script>
+    var C = 0;
+    var ES = 0.0;
+    var SU = 0.0;
+    var PR = 0.0;
+
+    do{
+        ES = parseFloat(prompt("Ingrese la estatura de una persona (0 o negativa para terminar): "));
+        if(ES>0){
+            SU += ES;
+            C++;
+        }
+    } while(ES>0);
+    if(C>0){
+        PR = SU/C;
+        alert("\nTotal de personas: "+C);
+        alert("Suma de estaturas: "+SU);
+        alert("Estatura promedio: "+PR);
+    }
+    else{
+        alert("\nNo se registro ninguna estatura valida.");
+    }
+</script>

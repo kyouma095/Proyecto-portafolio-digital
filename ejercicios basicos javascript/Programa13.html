@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>programa_13</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var che= parseInt(prompt("Ingresa el valor del cheque"))
+	    var b20 = parseInt(che/20);
+        che = che%20
+		var b10 = parseInt(che/10);
+        che = che%10
+		var b5 = parseInt(che/5);
+        che = che%5;
+		var b1= che/1;
+
+		alert("De veinte: "+b20+"\n"+"De diez: "+b10+"\n"+"De cinco: "+b5+"\n"+"De uno: "+b1)
+	</script>
+</body>
+</html>

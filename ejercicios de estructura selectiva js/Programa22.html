@@ -1,0 +1,32 @@
+<script>
+let s = parseInt(prompt("Ingresa tu sueldo"));
+let t = parseInt(prompt("Ingresa el tiempo de servicio trabajando en anos"));
+
+let a=0
+let ca =""
+
+ if(t>= 20 && t <=30){
+                ca = "A";
+                a = s*0.15;
+            }else if(t>= 15 && t<20){
+               ca = "B";
+                a = s*0.12;
+            }else if(t>=10 && t<15){
+                ca ="C";
+                a = s*0.10;
+            }else if(t>=0 && t <10){
+              ca ="D";
+              a = 15;
+            }
+            else{
+               alert("Ingresa un tiempo valido")
+            }
+
+            let sa = s+a
+            
+    alert("tiempo de servicio: " + t + " años" + "\n" + "categoria asignada: " + ca +
+          "\nEl sueldo original es: " + s +
+          "\nEl aumento es: " + a +
+          "\nEl sueldo con el aumento es: " + sa);
+
+</script>

@@ -1,0 +1,26 @@
+ <script>
+    var n = parseInt(prompt("Ingrese cuantas hamburguesas compro"));
+    var suma = 0, ph = 0, inc = 0, i = 1;
+    while(i<=n){
+    var th = prompt(i+".-¿Que tipo de hamburguesa compro? s/d/t");
+    if(th == "s"){
+        ph = 20;
+    }else if(th == "d"){
+        ph = 25;
+    }else if(th == "t"){
+        ph = 28;
+    }else{
+        alert("ERROR: tipo de hamburguesa no valida");
+        i--;
+    }
+    suma = suma + ph;
+    i++;
+    }
+    var t = prompt("¿Va a pagar con targeta de credito? si/no");
+    if(t == "si"){
+        inc = suma*0.05;
+    }
+    suma = suma + inc;
+    alert(`El cargo por la tarjeta es: $${inc} \nEl total a pagar es: $${suma}`);
+</script>
+

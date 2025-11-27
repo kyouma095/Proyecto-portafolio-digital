@@ -17,7 +17,8 @@
   body{ 
     background: lightsteelblue;
      font-family: Times new roman;
-
+ text-align: center;
+            font-family: Arial, sans-serif;
        
      }
 
@@ -95,10 +96,42 @@
     background-color: #F59E0B;
     color: #ffffff;
 }
-
-     
-
-
+.contenedor-principal {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .contenedor-ejercicios {
+            margin: 15px auto;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            max-width: 800px;
+            text-align: center;
+        }
+        
+        .label-ejercicios {
+            font-weight: bold;
+            font-size: 16px;
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        .boton-ejercicios {
+            padding: 12px 25px;
+            background-color: #FFD700; /* Amarillo */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        
+        .boton-ejercicios:hover {
+            background-color: #FFC400; /* Amarillo más oscuro al hover */
+        }
         
 
 

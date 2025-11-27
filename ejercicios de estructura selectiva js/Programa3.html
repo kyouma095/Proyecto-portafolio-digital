@@ -1,0 +1,18 @@
+<script>
+var ca = parseInt(prompt("Ingresa la cantidad de personas para el banquete:"));
+var p; 
+var total;
+
+if(ca>=200 && ca<=300){
+    p=85;
+    total = ca*85;
+}else if(ca>300){
+  p=75;
+  total=ca*75;
+}else{
+    p=95;
+    total = ca*95;
+}
+alert("La cantidad de la persona es: "+ca+"\n La cantidad a pagar por platillo es: "+p+"\n La cantidad total a pagar es: "+total+" pesos");
+
+</script>

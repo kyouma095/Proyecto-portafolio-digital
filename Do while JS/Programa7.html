@@ -1,0 +1,35 @@
+<script>
+    var C = parseInt(prompt("Ingrese numero de ciudades: "));
+    var T = parseInt(prompt("Ingrese numero de tiendas por ciudad: "));
+    var N = parseInt(prompt("Ingrese numero de empleados por tienda: "));
+    var totalF = 0;
+    var ciudad = 1;
+
+    do {
+        alert("Ciudad " + ciudad);
+        var totalCiudad = 0;
+
+        var tienda = 1;
+        do {
+            alert("  Tienda " + tienda);
+            var totalTienda = 0;
+
+            var empleado = 1;
+            do {
+                var ventaEmpleado = parseFloat(prompt("    Venta del empleado " + empleado + ": $"));
+                totalTienda += ventaEmpleado;
+                empleado++;
+            } while (empleado <= N);
+
+            alert("  Total vendido por la Tienda " + tienda + ": $" + totalTienda);
+            totalCiudad += totalTienda;
+            tienda++;
+        } while (tienda <= T);
+
+        alert("Total vendido en la Ciudad " + ciudad + ": $" + totalCiudad);
+        totalF += totalCiudad;
+        ciudad++;
+    } while (ciudad <= C);
+
+    alert("Total recaudado por la cadena El Mandilon en el dia: $" + totalF);
+</script>

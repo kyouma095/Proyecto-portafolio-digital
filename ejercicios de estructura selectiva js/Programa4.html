@@ -1,0 +1,22 @@
+<script>
+var ca = parseInt(prompt("Ingresa la cantidad de alumnos que iran en el viaje:"))
+var to = 0;
+var tn = 0;
+if(ca>=100){
+to =ca*65;
+tn = 65;
+}else if(ca>=50 && ca<=99){
+to = ca*70;
+tn =70;
+}else if(ca>=30 && ca<=49){
+to = ca*95;
+tn = 95;
+}else{
+to = 4000;
+tn = 4000/ca;
+}alert("El total de alumnos es: "+ca+"\n La cantidad de dinero a pagar  por alumnos es: "+tn+"\n El total a pagar a la empresa de autubuses es: "+to );
+
+
+
+
+</script>

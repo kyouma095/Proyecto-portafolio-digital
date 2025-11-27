@@ -1,0 +1,18 @@
+<script>
+	var horas = parseInt(prompt("Ingresa las horas trabajadas:"));
+	var pago = parseFloat(prompt("Ingresa el pago por hora:"));
+	var sueldo;
+
+	if (horas <= 40) {
+    	sueldo = horas * pago;
+    	alert("El sueldo semanal es: $" + sueldo);
+	} else if (horas <= 45) {
+    	sueldo = 40 * pago + (horas - 40) * 2 * pago;
+    	alert("El sueldo semanal es: $" + sueldo);
+	} else if (horas <= 50) {
+    	sueldo = 40 * pago + 5 * 2 * pago + (horas - 45) * 3 * pago;
+    	alert("El sueldo semanal es: $" + sueldo);
+	} else {
+        alert("Trabajar más de 50 horas no está permitido.");
+	}
+</script>
