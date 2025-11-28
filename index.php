@@ -36,6 +36,7 @@
             <li><a class="dropdown-item" href="java_do_while.php">Do while</a></li>
             <li><a class="dropdown-item" href="java_arreglos.php">Arreglos 1</a></li>
             <li><a class="dropdown-item" href="java_arreglo_2.php">Arreglos 2</a></li>
+            <li><a class="dropdown-item" href="java_ejemplo_lista.php">Ejemplos de listas</a></li>
             <li><a class="dropdown-item" href="java_listas.php">Listas</a></li>
 
 
