@@ -205,5 +205,6 @@ include('menu.php');
     <button class="boton-ejercicios" onclick="window.open('ejercicio propuestas/Propuesta27.html', '_blank')">Ejecutar</button>
 </div>
 
+<?php include ('Pie_pagina.php'); ?>
 </body>
 </html>

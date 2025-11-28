@@ -22,6 +22,6 @@ include('menu.php');
         Tu navegador no soporta iframes
     </iframe>
 </div>
-
+<?php include ('Pie_pagina.php'); ?>
 </body>
 </html>

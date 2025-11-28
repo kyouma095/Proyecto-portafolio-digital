@@ -14,7 +14,7 @@ include('menu.php');
 <body>
 
 <header>
-	Ejercicio de arreglo 2 resuelto
+	Ejercicio de arreglos 2 resuelto
 </header>
  <div style="text-align: center; margin: 20px auto;">
     <iframe src="PDF/30 Arreglos ejercicios.pdf" 
@@ -24,5 +24,6 @@ include('menu.php');
         Tu navegador no soporta iframes
     </iframe>
 </div>
+<?php include ('Pie_pagina.php'); ?>
 </body>
 </html>

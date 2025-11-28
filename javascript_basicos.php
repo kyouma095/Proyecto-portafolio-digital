@@ -474,6 +474,6 @@ sabiendo que 1gc = 9/5gf
         </form>
     </div>
 
-
+<?php include ('Pie_pagina.php'); ?>
 </body>
 </html>
