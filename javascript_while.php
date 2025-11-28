@@ -197,5 +197,7 @@ mínimo y su pago para no generar interese.
     <button class="boton-ejercicios" onclick="window.open('While JS while/Programa14.html', '_blank')">Ejecutar</button>
         </form>
     </div>
+
+<?php include ('Pie_pagina.php'); ?>
 </body>
 </html>

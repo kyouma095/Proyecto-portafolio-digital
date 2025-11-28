@@ -351,6 +351,6 @@ menor. También deberá considerar el caso en el que los dos números sean igual
     <button class="boton-ejercicios" onclick="window.open('ejercicios de estructura selectiva js/Programa24.html', '_blank')">Ejecutar</button>
         </form>
     </div>
-
+<?php include ('Pie_pagina.php'); ?>
 </body>
 </html>

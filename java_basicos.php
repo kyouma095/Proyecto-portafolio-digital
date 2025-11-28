@@ -23,7 +23,7 @@ include('menu.php');
             style="border: 1px solid #ccc; border-radius: 5px;">
         Tu navegador no soporta iframes
     </iframe>
-
-
+ </div>
+<?php include ('Pie_pagina.php'); ?>
 </body>
 </html>

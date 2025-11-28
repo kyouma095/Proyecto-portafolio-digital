@@ -25,5 +25,6 @@ include('menu.php');
     </iframe>
 </div>
 
+<?php include ('Pie_pagina.php'); ?>
 </body>
 </html>

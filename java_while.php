@@ -31,6 +31,6 @@ include('menu.php');
 
 
 
-
+<?php include ('Pie_pagina.php'); ?>
 </body>
 </html>
