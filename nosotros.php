@@ -55,7 +55,7 @@ include('menu.php');
             <div class="developer-card h-100">
                 <div class="card-header text-center">
                     <div class="developer-icon mx-auto mb-3">
-                        <img src="Img_equipo/brayan2.jpg" alt="Brayan Martin Lopez Flores" class="img-fluid">
+                        <img src="Img_equipo/brayan.jpg" alt="Brayan Martin Lopez Flores" class="img-fluid">
                     </div>
                     <h3 class="card-title mb-2">Brayan Martin Lopez Flores</h3>
                     <p class="text-muted mb-0"></p>
