@@ -83,7 +83,7 @@ include('menu.php');
     </div>
 </div>
 <!-- FIN SECCIÓN DE TARJETAS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 <?php include ('Pie_pagina.php'); ?>
 </body>
 </html>

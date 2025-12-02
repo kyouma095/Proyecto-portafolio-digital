@@ -70,6 +70,7 @@
   
       </ul>
     </div>
+    <a class="navbar-brand" href="nosotros.php">Acerca de nosotros</a>
   </div>
 </nav>
 
