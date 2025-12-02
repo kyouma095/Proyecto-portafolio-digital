@@ -267,6 +267,299 @@
     margin-top: auto;
 }
 
+.developer-card {
+    background: white;
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.developer-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.developer-icon {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #F59E0B;
+    margin: 0 auto 1.5rem;
+}
+
+.developer-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.developer-card:hover .developer-icon img {
+    transform: scale(1.05);
+}
+
+.card-header {
+    border-bottom: none;
+    background: transparent;
+}
+
+.card-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.card-body {
+    padding: 1.5rem 0;
+    flex-grow: 1;
+}
+
+.card-description {
+    color: #555;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.card-features {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.card-features li {
+    color: #666;
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    padding-left: 2rem;
+    position: relative;
+    line-height: 1.5;
+}
+
+.card-features li:before {
+    content: "•";
+    position: absolute;
+    left: 0.5rem;
+    color: #F59E0B;
+    font-weight: bold;
+    font-size: 1.5rem;
+    top: 0.4rem;
+}
+
+.developer-contact {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.contact-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #F59E0B;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: 2px solid #F59E0B;
+    font-size: 1rem;
+}
+
+.contact-btn:hover {
+    background-color: white;
+    color: #F59E0B;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(245, 158, 11, 0.3);
+}
+
+.contact-btn i {
+    font-size: 1.1rem;
+}
+
+/* Header de nosotros */
+header {
+    background: #1f2937;
+    color: white;
+    padding: 2.5rem 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* ===== MEDIA QUERIES PARA RESPONSIVIDAD ===== */
+
+/* Para tablets (768px o menos) */
+@media (max-width: 768px) {
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    .developer-card {
+        padding: 1.5rem;
+    }
+    
+    .developer-icon {
+        width: 140px;
+        height: 140px;
+    }
+    
+    .card-title {
+        font-size: 1.5rem;
+    }
+    
+    .card-description {
+        font-size: 1rem;
+    }
+    
+    .card-features li {
+        font-size: 0.95rem;
+        padding-left: 1.75rem;
+    }
+    
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    .developer-contact {
+        justify-content: center;
+    }
+}
+
+/* Para móviles (576px o menos) */
+@media (max-width: 576px) {
+    .developer-card {
+        padding: 1.25rem;
+        margin: 0 0.5rem;
+    }
+    
+    .developer-icon {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 1rem;
+    }
+    
+    .card-title {
+        font-size: 1.35rem;
+    }
+    
+    .card-description {
+        font-size: 0.95rem;
+        text-align: center;
+    }
+    
+    .card-features li {
+        font-size: 0.9rem;
+        padding-left: 1.5rem;
+        line-height: 1.4;
+    }
+    
+    .card-features li:before {
+        font-size: 1.25rem;
+        top: 0.3rem;
+    }
+    
+    header {
+        padding: 2rem 1rem;
+    }
+    
+    header h1 {
+        font-size: 1.75rem;
+    }
+    
+    .developer-contact {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.75rem;
+    }
+    
+    .contact-btn {
+        width: 100%;
+        max-width: 200px;
+        justify-content: center;
+        padding: 0.6rem 1.25rem;
+        font-size: 0.95rem;
+    }
+}
+
+/* Para móviles muy pequeños (360px o menos) */
+@media (max-width: 360px) {
+    .developer-card {
+        padding: 1rem;
+    }
+    
+    .developer-icon {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .card-title {
+        font-size: 1.25rem;
+    }
+    
+    .card-description {
+        font-size: 0.9rem;
+    }
+    
+    .card-features li {
+        font-size: 0.85rem;
+        padding-left: 1.25rem;
+    }
+    
+    header h1 {
+        font-size: 1.5rem;
+    }
+    
+    .contact-btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+}
+
+/* Para pantallas grandes (1200px o más) */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+    
+    .developer-card {
+        padding: 2.5rem;
+    }
+    
+    .developer-icon {
+        width: 180px;
+        height: 180px;
+    }
+    
+    .card-title {
+        font-size: 2rem;
+    }
+    
+    .card-description {
+        font-size: 1.15rem;
+    }
+    
+    .card-features li {
+        font-size: 1.05rem;
+    }
+}
+
+
+
+
+
+
 
     
         

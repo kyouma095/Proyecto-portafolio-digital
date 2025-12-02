@@ -74,6 +74,7 @@
 
       </ul>
     </div>
+    <a class="navbar-brand" href="nosotros.php">Acerca de nosotros</a>
   </div>
 </nav>
 
@@ -159,7 +160,9 @@
 
 </div>
 <!-- FIN SECCIÓN DE TARJETAS -->
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> 
+
 <!--Esto no lo quites por que cuando lo elimino los menu desplegable no funcionan :O-->
 <?php include ('Pie_pagina.php'); ?>
 </body>
